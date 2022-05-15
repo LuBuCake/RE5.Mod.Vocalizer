@@ -44,7 +44,7 @@ int KeyPressed(int VK)
 
 DWORD WINAPI MainThread(LPVOID param)
 {
-	Sleep(2000);
+	Sleep(4000);
 
 	if (!Game::ValidateGameVersion())
 	{
