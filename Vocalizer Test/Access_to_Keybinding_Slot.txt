@@ -1,0 +1,134 @@
+Move Forward:
+00B89C0A	(PUSH 00)
+
+Move Backward:
+00B89C35	(PUSH 01)
+
+Move Left:
+00B89C5A	(PUSH 02)
+
+Move Right:
+00B89C7F	(PUSH 03)
+
+Run:
+00C6C2F0	(PUSH 04)
+
+Quick Turn 1:
+unused		(unused)
+
+Quick Turn 2:
+00B8A627	(PUSH 06)
+
+Move Camera Up:
+00849CCD	(PUSH 07)
+
+Move Camera Down:
+00849CFE	(PUSH 08)
+
+Move Camera Left:
+00B89D8A	(PUSH 09)
+
+Move Camera Right:
+00B89DAF	(PUSH 0A)
+
+Locate Partner:
+00C6C2F0	(PUSH 0B)
+
+Ready Weapon:
+00C6C2F0 & 007688E5	(PUSH 0C)
+
+Ready Knife:
+00C6C2F0	(PUSH 0D)
+
+Quick Slash:
+00B8A7ED	(PUSH 27) - change to 0E
+
+Attack (With weapon ready):
+00C6C2F0	(PUSH 0E) - change to 0F
+
+Contextual Action:
+0076889F & 007688B5 & 00768B32 & 00768C6F & 00768C85 &
+0076B4BC & 0076B4D2 & 00A95088 & 00C2AAFC & 00CC1D01 &
+007688A1 & 00A99EAE
+(PUSH 0F) - change to 10
+
+Partner Action:
+00C6C2F0 & 007688CC & 0073A67E & 0073A721 & 00744312 &
+007459D7 & 007621F4 & 007646F4 & 0076699E & 00768B46 & 
+00768C9C & 0076B4E9 & 00A99E90
+(PUSH 10)  - change to 11
+
+Reload 1:
+007688CE		(PUSH 11) - change to 12
+
+Reload 2:
+00B8A777 & 00B8A796	(PUSH 12) - change to 13
+
+Zoom In (Scope):
+00B863BA	(PUSH 13) - change to 14
+
+Zoom Out (Scope):
+00B863E7	(PUSH 14) - change to 15
+
+Map:
+00C6C2F0	(PUSH 15) - change to 16
+
+Item Menu:
+00C6C2F0	(PUSH 16) - change to 17
+
+Equipment Slot 1:
+00C69A89	(PUSH 17) - change to 18
+
+Equipment Slot 2:
+00C69A89	(PUSH 18) - change to 19
+
+Equipment Slot 3:
+00C69A89	(PUSH 19) - change to 1A
+
+Equipment Slot 4:
+00C69A89	(PUSH 1A) - change to 1B
+
+Equipment Slot 5:
+00C69A89	(PUSH 1B) - change to 1C
+
+Equipment Slot 6:
+00C69A89	(PUSH 1C) - change to 1D
+
+Equipment Slot 7:
+00C69A89	(PUSH 1D) - change to 1E
+
+Equipment Slot 8:
+00C69A89	(PUSH 1E) - change to 1F
+
+Equipment Slot 9:
+00C69A89	(PUSH 1F) - change to 20
+
+Previous Weapon:
+00C69AB6 & 00C69B1C	(PUSH 20) - change to 21
+
+Next Weapon:
+00C69AA5 & 00C69AD6	(PUSH 21) - change to 22
+
+Gesture 1(Assault/Send out):
+00C680A5 & 00C6820B	(PUSH 22) - change to 24
+
+Gesture 2(Cover/Stop):
+00C6823B & 00C680CE & 00C680E5 & 00C680F6
+(PUSH 23) - change to 25
+
+Gesture 3(Thank):
+00C6811A & 00C68262	(PUSH 24) - change to 26
+
+Gesture 4(Call):
+00C68138 & 00C68287	(PUSH 25) - change to 27
+
+Taunt:
+00B8A87C & 00B8A89C	(PUSH 26) - change to 23
+
+
+
+
+
+
+
+
