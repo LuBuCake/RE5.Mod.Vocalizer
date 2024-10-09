@@ -51,8 +51,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -68,12 +68,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "FileDescription", "Speech anytime!"
-            VALUE "FileVersion", "1.0.0.1"
+            VALUE "FileVersion", "1.0.0.2"
             VALUE "InternalName", "RE5.Mod.Vocalizer"
-            VALUE "LegalCopyright", "Copyright (C) LuBuCake (Sr. Wesky) 2021"
+            VALUE "LegalCopyright", "Copyright (C) LuBuCake (Wesky) 2024"
             VALUE "OriginalFilename", "RE5.Mod.Vocalizer"
             VALUE "ProductName", "Resident Evil 5 Vocalizer"
-            VALUE "ProductVersion", "1.0.0.1"
+            VALUE "ProductVersion", "1.0.0.2"
         END
     END
     BLOCK "VarFileInfo"
